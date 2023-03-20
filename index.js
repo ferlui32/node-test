@@ -1,8 +1,15 @@
+import chalk from 'chalk';
 const myName = function() {
-    names = ["Gosia", "Tomás", "José", "Nuno", "Sjoerd"]
-    for (let i=0; i<names.length; i++){
-        console.log(names[i])
-    }
+    let names = ["Gosia", "Tomás", "José", "Nuno", "Sjoerd"]
+    let colors= ["blue", "red", "green", "yellow", "red"]
+    
+        console.log(chalk.blue("Gosia"));
+        console.log(chalk.red("Tomás"));
+        console.log(chalk.green("José"))
+        console.log(chalk.yellow("Nuno"))
+        console.log(chalk.magenta("Sjoerd"))
+
+
     
 };
 
